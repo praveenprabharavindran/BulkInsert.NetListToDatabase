@@ -1,4 +1,4 @@
-# Project Title
+# Bulk Insert a .NET List to Database
 
 This DataReaderAdapater is an adapter class that simplifies bulk insert of any .NET list to the database
 
