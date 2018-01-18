@@ -1,6 +1,6 @@
 # Bulk Insert a .NET List to Database
 
-This DataReaderAdapater is an adapter class that simplifies bulk insert of any .NET list to the database
+The DataReaderAdapater is an adapter that simplifies bulk insert of any .NET list to the database
 
 ## Getting Started
 
@@ -53,7 +53,7 @@ When the properties of the .NET type and the DB column names match exactly in te
 ### Should InsertListToDbWithColumnMappings
 When the names of properties of the .NET type do not match with the DB column names.
 
-In this case, the SqlBulkCopy needs to be provided with a list of column mappings that help it identify which properties go to what columns in DB.
+In this case, the SqlBulkCopy needs to be provided with a list of column mappings that helps identify which properties go to what columns in DB.
 
 ## Built With
 
