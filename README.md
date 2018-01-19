@@ -10,7 +10,7 @@ The SqlBulkCopy class provides an efficient means to import data into a SQL Serv
 * DataRow[]
 * IDataReader
 
-The DataReaderAdapater is intended to provide a simple means to bulk insert data from just any IList<T> type
+ The DataReaderAdapater wraps around the list and exposes itself as an IDataReader that can be directly consumed by the SqlBulkCopy’s ‘WriteToServer’ method.
 
 
 ## Usage
